@@ -6,7 +6,7 @@ body {
   line-height: 1.3em;
 }
 
-h1 {
+h1, h2 {
   color: hsl(200, 75%, 47%);
 }
 
@@ -69,6 +69,10 @@ header .selected {
   margin: 0 auto;
   padding-bottom: 50px;
   max-width: 700px;
+}
+
+#content-container img {
+  width: 50%;
 }
 
 #nav {
